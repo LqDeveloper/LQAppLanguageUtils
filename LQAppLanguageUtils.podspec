@@ -8,16 +8,16 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LQAppLanguageUtils'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '方便应用做国家化'
   s.description      = <<-DESC
-                        方便应用做国家化
+                        可以直接使用语言管理类开发针对，简体中文，繁体中文，和英文的应用
                        DESC
   s.homepage         = 'https://github.com/lqIphone/LQAppLanguageUtils'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lqIphone' => '1083099465@qq.com' }
-  s.source           = { :git => 'https://github.com/lqIphone/LQAppLanguageUtils.git', :tag => '1.0.0' }
-  s.swift_version = "4.2"
+  s.source           = { :git => 'https://github.com/lqIphone/LQAppLanguageUtils.git', :tag => '1.0.1' }
+  s.swift_version = "5"
   s.ios.deployment_target = '9.0'
   s.source_files = 'AppLanguageUtils/AppLanguageManager.swift'
 end
